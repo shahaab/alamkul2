@@ -1,0 +1,806 @@
+<!DOCTYPE html>
+<html lang="en">
+      <head>
+            <!-- Required meta tags -->
+            <meta charset="UTF-8">
+            <meta http-equiv="X-UA-Compatible" content="IE=edge">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <meta name="description" content="">
+            <meta name="author" content="Shahaab">
+            <!-- favicon -->
+            <link rel="icon" type="image/png" sizes="32x32" href="/picture/favicon-32x32.png">
+            
+            <!-- Bootstrap CSS -->
+            <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+
+            <!-- fontawesome -->
+            <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+
+            <!-- text font -->
+            <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
+            
+            <link rel="manifest" href="/site.webmanifest">
+            
+            <!-- link for css file -->
+            <link rel="stylesheet" href="/courses/cmp/style.css">
+            <title>Concept Mastery Program</title>
+            <script>
+                  window.onblur = function () { document.title = 'Come Back'; }
+                  
+                  window.onfocus = function () { document.title = 'Concept Mastery Program'; }
+                  </script>
+</head>
+<body>
+  <header>
+    <a class="logo" href="/"><img src="/picture/alamkul logo.png" height="65px" alt="logo"></a>
+    <!-- <a class="logo" href="/">Alamkul</a> -->
+    <nav>
+          <ul class="nav__links">
+                <li><a href="/abt-us/abt-us-index.html">About us</a></li>
+                <li>
+                      
+                      <div class="dropdown">
+                            <a class="dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+                                  Courses
+                            </a>
+                            
+                            <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                              <li><a class="dropdown-item" href="/courses/cmp/index.html">CMP</a></li>
+                              <li><a class="dropdown-item" href="/courses/pre-foundation/index.html">PreFoundation</a></li>
+                              <li><a class="dropdown-item" href="/courses/jee/jee-index.html">JEE</a></li>
+                              <li><a class="dropdown-item" href="/courses/neet/neet-index.html">NEET</a></li>
+                              <li><a class="dropdown-item" href="/courses/board/index.html">Board Courses</a></li>
+                            </ul>
+                      </div>
+                </li>
+                <li>
+                      <div class="dropdown">
+                            <a class="dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+                                  Sponsor
+                            </a>
+                            
+                            <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                                  <li><a class="dropdown-item" href="/sponser/sponsor-us/spnsr-us-index.html">Sponsor a child</a></li>
+                                  <li><a class="dropdown-item" href="/sponser/be-sponsored/be-spnsrd-index.html">Be Sponsored</a></li>
+                            </ul>
+                      </div>
+                </li>
+          </ul>
+    </nav>
+    
+    <a class="cta cta-schedule" href="/counselling/counselling-index.html">Schedule Free Counselling</a>
+    <a class="cta" href="/index.html#demo-form">Aspirants, Start here</a>
+    <p class="menu cta">Menu</p>
+</header>
+<div id="mobile__menu" class="overlay">
+    <a class="close">&times;</a>
+    <div class="overlay__content">
+          <a href="/abt-us/abt-us-index.html">About us</a>
+          <div class="dropdown">
+                <a class="dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+                      Courses
+                </a>
+                
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                  <li><a class="dropdown-item" href="/courses/cmp/index.html">CMP</a></li>
+                  <li><a class="dropdown-item" href="/courses/pre-foundation/index.html">PreFoundation</a></li>
+                  <li><a class="dropdown-item" href="/courses/jee/jee-index.html">JEE</a></li>
+                  <li><a class="dropdown-item" href="/courses/neet/neet-index.html">NEET</a></li>
+                  <li><a class="dropdown-item" href="/courses/board/index.html">Board Courses</a></li>
+                </ul>
+          </div>
+          <div class="dropdown">
+                <a class="dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+                      Sponsor
+                </a>
+                
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                      <li><a class="dropdown-item" href="/sponser/sponsor-us/spnsr-us-index.html">Sponsor a child</a></li>
+                      <li><a class="dropdown-item" href="/sponser/be-sponsored/be-spnsrd-index.html">Be Sponsored</a></li>
+                </ul>
+          </div>
+          <a href="/counselling/counselling-index.html">Free Counselling</a>
+    </div>
+</div>
+
+      <div class="landing-page">
+        <div class="custom-shape-divider-bottom-1630331727">
+            <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+                <path d="M741,116.23C291,117.43,0,27.57,0,6V120H1200V6C1200,27.93,1186.4,119.83,741,116.23Z" class="shape-fill"></path>
+            </svg>
+        </div>
+        <h1 class="main-heading">Alamkul’s <span class="red-color">
+            CMP
+        </span> 
+    </h1>
+    <p class="year-heading">Students of VI - XI</p>
+
+        <div class="landing-container">
+
+            <div class="landing-txt">
+                <div class="landingpage-heading">
+                  <!--  -->
+            </div>
+                <h3 class="main-para">Concept Mastery Program is designed for students of class 6th, 7th and 8th to help them with their basic foundation which will enable them to understand the advanced concept. </h3>
+                <div class="btn-landing-page">
+                    <button type="button" onclick='window.location.href = "/index.html#demo-form"' class="btn btn-outline-dark btn-lg">Book a FREE class</button>
+                    <button type="button" onclick='window.location.href = "/index.html#demo-form"' class="btn btn-danger btn-lg">ENROL NOW</button>
+                </div>
+            </div>
+            
+            <div class="landing-img">
+                <img class="female-neet" src="/picture/courses/cmp/indian-school-girl-raising-hand-learning-online-on-E5PDLKZ-removebg-preview 1.png" alt="girl-cmp">
+            </div>
+        </div>
+            
+    </div>
+
+<h1></h1>
+
+<div class="about-course">
+      <div class="class-descp">
+        <div class="about-heading">
+          <h1>Grade <span class="red"> VI, VII, VIII & IX</span></h1>
+      </div> 
+          <div class="about-descp">
+        <p>In this program, we will primarily be using Khan academy along with our educational apps in bringing clarity to the concept through visual representation, healthy competitive atmosphere, and by making learning fun.</p>
+      </div>
+          <hr>
+        <div class="about-topics">
+          <span class="abt-topic-sub">Biology</span>
+          <span class="abt-topic-sub">Chemistry</span>
+          <span class="abt-topic-sub">Physics</span>
+          <span class="abt-topic-sub">Mathematics</span>
+      </div>
+          <br>
+        <div class="ttl-hours">
+        <span class="hrs-num">300+</span>
+          <span class="hrs-title">hrs</span> 
+          <span class="hrs-text">Intensive Program</span>
+      </div>
+          
+      <div class="sub-hour">
+        <div class="sub-sub-hour">
+          <span class="sub-re-color">
+            82+hrs
+          </span>
+          <span>
+            Mathematics Section
+          </span>
+        </div>
+        <div class="sub-sub-hour">
+          <span class="sub-re-color">
+            82+hrs
+          </span>
+          <span>
+            Mathematics Section
+          </span>
+        </div>
+        <div class="sub-sub-hour">
+          <span class="sub-re-color">
+            82+hrs
+          </span>
+          <span>
+            Mathematics Section
+          </span>
+        </div>
+        <div class="sub-sub-hour">
+          <span class="sub-re-color">
+            82+hrs
+          </span>
+          <span>
+            Mathematics Section
+          </span>
+        </div>
+        <div class="sub-sub-hour">
+          <span class="sub-re-color">
+            82+hrs
+          </span>
+          <span>
+            Mathematics Section
+          </span>
+        </div>
+        <div class="sub-sub-hour">
+          <span class="sub-re-color">
+            82+hrs
+          </span>
+          <span>
+            Mathematics Section
+          </span>
+        </div>
+        
+      </div>   
+      </div>
+      
+        <div class="class-pay">
+          <div class="switch-field">
+            <input type="radio" id="switch_left" name="switch_2" value="yes" onclick="myFunction()" checked/>
+            <label for="switch_left">ELITE<br>6k/mo/sub </label>
+            <input type="radio" id="switch_right" name="switch_2" onclick="myFunction()" value="no" />
+            <label for="switch_right">Basic<br>2k/mo/sub </label>
+          </div>
+      
+      <div id="elite">
+          <div >
+          <img src="https://i.ibb.co/v1ZNv6p/tick-31.jpg" alt="tick-31" border="0">  Access to Alamkul App 
+          </div>
+          <div>
+          <img src="https://i.ibb.co/v1ZNv6p/tick-31.jpg" alt="tick-31" border="0">  Batch Strength: 20
+          </div>
+          <div>
+          <img src="https://i.ibb.co/v1ZNv6p/tick-31.jpg" alt="tick-31" border="0">  Highly competitive peer group
+          </div>
+          <div>
+          <img src="https://i.ibb.co/v1ZNv6p/tick-31.jpg" alt="tick-31" border="0">  Individual attention
+          </div>
+          <div>
+          <img src="https://i.ibb.co/v1ZNv6p/tick-31.jpg" alt="tick-31" border="0">  Motivational sessions
+          </div>
+      
+      </div>
+      
+      <div id="basic"  style="display: none;">
+          <div>
+          <img src="https://i.ibb.co/v1ZNv6p/tick-31.jpg" alt="tick-31" border="0"> Batch Strength: 50
+          </div>
+          <div>
+          <img src="https://i.ibb.co/v1ZNv6p/tick-31.jpg" alt="tick-31" border="0">  Highly competitive peer group
+          </div>
+          <div>
+          <img src="https://i.ibb.co/7tCKpxP/Vector.png" class="black-svg" alt="tick-31" border="0">  Individual attention
+          </div>
+          <div>
+          <img src="https://i.ibb.co/7tCKpxP/Vector.png" class="black-svg"alt="Vector" border="0">  Motivational sessions
+          </div>
+          <div>
+          <img src="https://i.ibb.co/7tCKpxP/Vector.png" class="black-svg" alt="tick-31" border="0">  Access to Alamkul App 
+          </div>
+        </div>
+      
+      
+    
+    
+        </div>
+    </div>
+
+
+
+
+
+
+<div class="image_section">
+      <img class="pic2" src="/picture/courses/cmp/Frame 32.jpg" />
+      <img class="pic1" src="/picture/courses/cmp/Frame 48.jpg" />
+      <img class="pic3" src="/picture/courses/cmp/Frame 34.jpg" />
+
+  </div>
+
+
+
+
+
+
+
+
+<!-- demo vdos -->
+<h2 class="demo-heading">DEMO Videos</h2>
+<div class="vdo-demo">
+
+      <div class="vdo-preview">
+      <div class="buttons">
+        <a class="button-menu"onclick="toggleVisibility('Menu1');">Orientation</a>
+        <a class="button-menu" onclick="toggleVisibility('Menu2');">Sequence and series</a>
+        <a class="button-menu"onclick="toggleVisibility('Menu3');">Vector product</a>
+        <a class="button-menu"onclick="toggleVisibility('Menu4');">Alamkul-in-class</a>
+      </div>
+       
+        <div id="Menu1" class="vdo-menu"style="display: block;"><iframe width="100%" height="315" src="https://www.youtube.com/embed/t_sw5zOnpxI?rel=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+        <div id="Menu2" class="vdo-menu" style="display: none;"><iframe width="100%" height="315" src="https://www.youtube.com/embed/Dwy5TJNcWnA?rel=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+        <div id="Menu3" class="vdo-menu" style="display: none;"><iframe width="100%" height="315" src="https://www.youtube.com/embed/SxBz_VURP10?rel=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+        <div id="Menu4" class="vdo-menu" style="display: none;"><iframe width="100%" height="315" src="https://www.youtube.com/embed/tZ_OPy_Q654?rel=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+      </div>
+        
+        
+        
+        
+        
+        <div class="right-side-screen">
+          <svg width="100%" height="318" viewBox="0 0 672 457" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path fill-rule="evenodd" clip-rule="evenodd" d="M374.173 426.319H372.115C364.917 426.319 359.081 421.066 359.081 414.586V376.916C359.081 370.849 364.199 365.856 370.759 365.246C370.611 365.243 370.467 365.227 370.318 365.227H368.127C360.465 365.227 354.253 370.818 354.253 377.717V417.818C354.253 424.717 360.465 430.308 368.127 430.308H370.318C375.722 430.308 380.393 427.52 382.683 423.461C380.399 425.237 377.428 426.319 374.173 426.319Z" fill="#E3DDE4"/>
+      <path d="M422.772 456.822C422.772 456.822 412.727 421.098 408.532 394.655C404.881 371.64 400.5 340.684 400.5 340.684H370.318V340.698L370.31 340.684H340.128C340.128 340.684 335.747 371.64 332.095 394.655C327.901 421.098 317.857 456.822 317.857 456.822H370.31L370.318 456.807V456.822H422.772ZM368.127 430.308C360.465 430.308 354.253 424.716 354.253 417.817V377.717C354.253 370.818 360.465 365.226 368.127 365.226H370.318C377.981 365.226 384.192 370.818 384.192 377.717V417.817C384.192 424.716 377.981 430.308 370.318 430.308H368.127Z" fill="url(#paint0_linear)"/>
+      <path fill-rule="evenodd" clip-rule="evenodd" d="M562.865 329.302V112.935C562.865 106.713 557.319 101.669 550.476 101.669H273.575C270.281 107.333 265.329 112.111 257.098 115.127C231.543 124.489 209.688 123.814 182.932 124.54V329.302H562.865Z" fill="white"/>
+      <path fill-rule="evenodd" clip-rule="evenodd" d="M562.865 112.935C562.865 106.713 557.319 101.669 550.476 101.669H516.821L515.158 104.93C517.828 113.346 515.87 120.467 502.463 124.19C483.082 129.57 448.138 124.716 440.885 145.445C435.901 159.687 442.901 173.606 449.545 180.08C456.19 186.554 464.256 199.07 448.122 202.091C431.986 205.113 411.574 198.26 397.341 197.128C375.629 195.401 346.323 194.861 332.678 213.959C322.583 228.088 330.305 241.581 341.635 243.469C350.277 244.909 359.491 241.204 362.992 233.759C366.219 226.896 362.344 220.886 356.764 219.841C351.01 218.762 345.568 222.319 344.425 225.614C343.357 228.688 345.351 230.314 347.509 230.145C350.949 229.875 352.433 227.124 353.797 228.418C355.542 230.075 352.937 234.164 347.865 235C344.042 235.631 339.233 234.811 338.136 228.526C337.107 222.633 340.391 217.251 347.984 214.175C355.029 211.322 363.409 212.665 368.629 219.355C373.85 226.045 372.248 237.643 365.306 243.415C354.946 252.033 342.152 253.113 322.356 257.334C297.074 262.724 258.523 271.306 252.828 298.118C249.464 313.954 257.823 323.712 265.919 329.301H562.866V112.935H562.865Z" fill="url(#paint1_linear)"/>
+      <path fill-rule="evenodd" clip-rule="evenodd" d="M415.85 308.047C431.755 304.811 460.936 298.66 469.241 274.868C476.897 252.938 456.959 249.8 458.563 231.871C459.986 215.956 493.088 209.787 525.006 203.603C557.303 197.344 552.058 183.317 550.159 176.412C550.159 176.412 545.789 157.806 562.866 151.174V116.299L559.652 114.965C558.939 119.497 541.711 135.778 523.546 136.348C505.311 136.922 479.564 131.958 466.572 147.495C456.257 159.83 465.682 173.499 471.555 180.35C475.52 184.976 481.622 201.769 464.079 206.083C442.366 211.424 422.586 204.433 408.552 202.038C391.17 199.07 378.118 204.034 375.805 210.292C371.891 220.878 387.997 223.473 387.017 237.643C386.186 249.674 363.826 260.113 332.024 264.348C296.37 269.096 282.867 281.186 282.37 295.637C281.895 309.448 292.871 316.138 306.218 317.271C318.999 318.357 335.522 315.743 336.435 329.302H385.365C380.644 309.801 402.48 310.767 415.85 308.047Z" fill="url(#paint2_linear)"/>
+      <path fill-rule="evenodd" clip-rule="evenodd" d="M489.174 245.682C483.302 258.359 502.878 261.435 498.903 285.604C495.368 307.093 455.003 304.162 441.953 311.283C434.173 315.529 433.223 323.529 433.726 329.302H562.866V231.693C548.184 239.962 496.714 229.405 489.174 245.682Z" fill="url(#paint3_linear)"/>
+      <path fill-rule="evenodd" clip-rule="evenodd" d="M550.159 176.412C552.058 183.317 557.303 197.344 525.006 203.603C493.088 209.787 459.986 215.957 458.563 231.871C456.958 249.8 476.896 252.938 469.241 274.868C460.936 298.659 431.754 304.811 415.85 308.046C402.48 310.767 380.645 309.801 385.365 329.302H433.726C433.224 323.529 434.172 315.529 441.953 311.283C455.003 304.162 495.368 307.093 498.902 285.604C502.877 261.435 483.301 258.359 489.174 245.682C496.715 229.405 548.185 239.962 562.866 231.693V151.174C545.789 157.806 550.159 176.412 550.159 176.412Z" fill="url(#paint4_linear)"/>
+      <path fill-rule="evenodd" clip-rule="evenodd" d="M531.531 151.056C526.903 155.588 518.955 157.314 511.124 158.285C503.294 159.256 489.293 160.551 482.589 171.448C475.923 182.287 482.165 198.569 496.115 199.609C514.922 201.012 519.786 185.475 524.769 180.674C529.305 176.302 539.363 174.038 539.541 167.079C539.719 160.12 531.531 151.056 531.531 151.056Z" fill="url(#paint5_linear)"/>
+      <path fill-rule="evenodd" clip-rule="evenodd" d="M380.017 285.172C390.977 287.135 408.493 285.022 414.187 278.267C419.645 271.793 416.561 264.024 421.307 259.924C426.051 255.825 445.173 243.921 448.832 237.265C452.154 231.223 449.544 223.455 441.951 221.081C434.6 218.783 428.187 221.728 424.866 227.771C421.543 233.814 418.459 242.876 405.644 249.566C394.949 255.149 370.859 261.138 367.44 271.145C364.712 279.13 372.186 283.769 380.017 285.172Z" fill="url(#paint6_linear)"/>
+      <path fill-rule="evenodd" clip-rule="evenodd" d="M550.771 108.143C552.715 108.143 554.299 109.248 554.299 110.607V329.41H567.269V110.607C567.269 104.24 559.883 99.0789 550.771 99.0789H186.815C184.747 102.388 182.099 105.46 178.503 108.143H550.771Z" fill="#93778B"/>
+      <path fill-rule="evenodd" clip-rule="evenodd" d="M188.495 329.409V99.4031C185.245 99.4854 181.927 99.5785 178.529 99.706V329.409H188.495Z" fill="#93778B"/>
+      <path fill-rule="evenodd" clip-rule="evenodd" d="M178.529 327.682V339.892C178.529 346.258 184.204 351.42 191.206 351.42H554.593C561.594 351.42 567.27 346.258 567.27 339.892V327.682H178.529Z" fill="url(#paint7_linear)"/>
+      <path fill-rule="evenodd" clip-rule="evenodd" d="M325.439 210.58C325.439 212.01 324.165 213.17 322.592 213.17H212.604C211.033 213.17 209.757 212.01 209.757 210.58V171.089C209.757 169.659 211.032 168.5 212.604 168.5H322.592C324.164 168.5 325.439 169.659 325.439 171.089V210.58Z" fill="#E3DDE4"/>
+      <path d="M322.592 214.141H212.604C210.446 214.141 208.689 212.544 208.689 210.58V171.089C208.689 169.126 210.446 167.529 212.604 167.529H322.592C324.751 167.529 326.507 169.126 326.507 171.089V210.58C326.507 212.544 324.75 214.141 322.592 214.141ZM212.604 169.471C211.624 169.471 210.824 170.197 210.824 171.089V210.58C210.824 211.472 211.623 212.199 212.604 212.199H322.592C323.573 212.199 324.372 211.473 324.372 210.58V171.089C324.372 170.197 323.574 169.471 322.592 169.471H212.604Z" fill="#B5A8AE"/>
+      <path fill-rule="evenodd" clip-rule="evenodd" d="M221.592 181.691H313.425C314.261 181.691 314.938 181.076 314.938 180.316C314.938 179.556 314.261 178.94 313.425 178.94H221.592C220.757 178.94 220.079 179.555 220.079 180.316C220.079 181.076 220.756 181.691 221.592 181.691ZM221.592 192.212H238.173H243.512H265.965C266.801 192.212 267.479 191.596 267.479 190.835C267.479 190.076 266.801 189.459 265.965 189.459H243.512H238.173H221.592C220.757 189.459 220.079 190.076 220.079 190.835C220.079 191.596 220.756 192.212 221.592 192.212ZM313.425 189.46H302.362H301.056H295.746C294.911 189.46 294.234 190.076 294.234 190.836C294.234 191.596 294.911 192.212 295.746 192.212H301.056H302.362H313.425C314.261 192.212 314.938 191.597 314.938 190.836C314.938 190.076 314.261 189.46 313.425 189.46ZM287.648 190.836C287.648 190.076 286.971 189.46 286.136 189.46H284.089H280.411H275.696C274.86 189.46 274.182 190.076 274.182 190.836C274.182 191.596 274.86 192.212 275.696 192.212H280.411H284.089H286.136C286.972 192.212 287.648 191.596 287.648 190.836ZM296.696 199.981H294.648H290.971H286.255C285.421 199.981 284.743 200.596 284.743 201.357C284.743 202.117 285.421 202.732 286.255 202.732H290.971H294.648H296.696C297.532 202.732 298.208 202.117 298.208 201.357C298.208 200.596 297.532 199.981 296.696 199.981ZM275.25 199.981H249.711H229.423H221.592C220.757 199.981 220.079 200.596 220.079 201.357C220.079 202.117 220.757 202.732 221.592 202.732H229.423H249.711H275.25C276.085 202.732 276.763 202.117 276.763 201.357C276.763 200.596 276.085 199.981 275.25 199.981Z" fill="white"/>
+      <path fill-rule="evenodd" clip-rule="evenodd" d="M314.929 143.535L315.945 144.904L275.057 169.076L274.041 167.706L314.929 143.535Z" fill="#B5A8AE"/>
+      <path fill-rule="evenodd" clip-rule="evenodd" d="M242.486 287.205L240.862 285.944L281.908 242.254L242.906 213.964L244.238 212.446L284.967 241.989L242.486 287.205Z" fill="#B5A8AE"/>
+      <path d="M414.425 294.667H263.505V296.609H414.425V294.667Z" fill="#93778B"/>
+      <path fill-rule="evenodd" clip-rule="evenodd" d="M275.607 296.286C275.607 300.934 271.463 304.702 266.352 304.702H219.011C213.9 304.702 209.757 300.934 209.757 296.286V294.991C209.757 290.343 213.901 286.575 219.011 286.575H266.352C271.464 286.575 275.607 290.344 275.607 294.991V296.286Z" fill="#BE4118"/>
+      <path d="M266.352 305.672H219.011C213.319 305.672 208.689 301.461 208.689 296.285V294.99C208.689 289.814 213.32 285.603 219.011 285.603H266.352C272.044 285.603 276.674 289.815 276.674 294.99V296.285C276.675 301.461 272.044 305.672 266.352 305.672ZM219.011 287.545C214.497 287.545 210.824 290.885 210.824 294.99V296.285C210.824 300.39 214.498 303.73 219.011 303.73H266.352C270.867 303.73 274.539 300.39 274.539 296.285V294.99C274.539 290.885 270.866 287.545 266.352 287.545H219.011Z" fill="#B5A8AE"/>
+      <path fill-rule="evenodd" clip-rule="evenodd" d="M368.864 296.286C368.864 300.934 364.721 304.702 359.61 304.702H312.27C307.157 304.702 303.015 300.934 303.015 296.286V294.991C303.015 290.343 307.158 286.575 312.27 286.575H359.61C364.722 286.575 368.864 290.344 368.864 294.991V296.286Z" fill="#5C60D5"/>
+      <path d="M359.61 305.672H312.27C306.578 305.672 301.948 301.461 301.948 296.285V294.99C301.948 289.814 306.579 285.603 312.27 285.603H359.61C365.302 285.603 369.932 289.815 369.932 294.99V296.285C369.932 301.461 365.302 305.672 359.61 305.672ZM312.27 287.545C307.754 287.545 304.083 290.885 304.083 294.99V296.285C304.083 300.39 307.755 303.73 312.27 303.73H359.61C364.124 303.73 367.797 300.39 367.797 296.285V294.99C367.797 290.885 364.123 287.545 359.61 287.545H312.27Z" fill="#93778B"/>
+      <path d="M283.437 251.401C289.073 251.401 293.641 247.246 293.641 242.121C293.641 236.996 289.073 232.841 283.437 232.841C277.801 232.841 273.233 236.996 273.233 242.121C273.233 247.246 277.801 251.401 283.437 251.401Z" fill="#B5A8AE"/>
+      <path d="M283.437 246.195C285.911 246.195 287.917 244.371 287.917 242.121C287.917 239.871 285.911 238.047 283.437 238.047C280.963 238.047 278.958 239.871 278.958 242.121C278.958 244.371 280.963 246.195 283.437 246.195Z" fill="white"/>
+      <path fill-rule="evenodd" clip-rule="evenodd" d="M351.66 135.752C351.66 141.104 346.888 145.442 341.004 145.442H286.498C280.613 145.442 275.844 141.103 275.844 135.752V134.261C275.844 128.91 280.614 124.572 286.498 124.572H341.004C346.889 124.572 351.66 128.91 351.66 134.261V135.752Z" fill="#5C60D5"/>
+      <path d="M341.004 146.413H286.498C280.035 146.413 274.776 141.63 274.776 135.752V134.261C274.776 128.383 280.036 123.601 286.498 123.601H341.004C347.469 123.601 352.727 128.383 352.727 134.261V135.752C352.727 141.631 347.469 146.413 341.004 146.413ZM286.498 125.542C281.212 125.542 276.911 129.453 276.911 134.261V135.752C276.911 140.56 281.212 144.471 286.498 144.471H341.004C346.291 144.471 350.592 140.56 350.592 135.752V134.261C350.592 129.453 346.291 125.542 341.004 125.542H286.498Z" fill="#B5A8AE"/>
+      <path fill-rule="evenodd" clip-rule="evenodd" d="M632.514 257.213C635.645 259.943 638.692 262.739 641.688 265.577C644.701 268.401 647.604 271.312 650.623 274.133C653.639 276.954 656.701 279.738 659.402 282.812C660.08 283.578 660.74 284.359 661.391 285.147C662.026 285.946 662.697 286.72 663.246 287.589C663.801 288.452 664.267 289.389 664.637 290.4C664.995 291.423 665.266 292.514 665.288 293.804C663.88 293.622 662.72 293.241 661.647 292.791C660.587 292.33 659.621 291.794 658.746 291.185C657.864 290.582 657.104 289.882 656.308 289.209C655.529 288.525 654.756 287.833 654.005 287.126C650.983 284.31 648.322 281.205 645.615 278.137C642.908 275.066 640.09 272.088 637.379 269.022C634.652 265.97 631.976 262.876 629.385 259.716C628.695 258.874 628.887 257.684 629.815 257.059C630.646 256.497 631.789 256.582 632.514 257.213Z" fill="#EA971D"/>
+      <path fill-rule="evenodd" clip-rule="evenodd" d="M657.515 290.891C657.509 290.891 657.505 290.891 657.5 290.891C657.101 290.884 656.783 290.601 656.783 290.239C656.783 289.557 657.438 288.294 658.537 287.362C659.681 286.39 661.107 285.928 662.658 286.018C663.062 286.042 663.367 286.359 663.34 286.725C663.315 287.091 662.969 287.368 662.563 287.343C661.435 287.276 660.444 287.59 659.603 288.276C658.69 289.022 658.256 289.997 658.246 290.241C658.231 290.598 657.907 290.891 657.515 290.891ZM635.915 260.251C634.788 259.233 633.661 258.215 632.514 257.213C631.789 256.582 630.646 256.497 629.814 257.06C628.886 257.685 628.695 258.875 629.384 259.717C630.356 260.903 631.352 262.072 632.346 263.241C632.933 262.076 633.969 260.809 635.915 260.251ZM664.999 291.64L663.152 293.336C663.808 293.537 664.507 293.703 665.288 293.803C665.275 293.016 665.162 292.308 664.999 291.64Z" fill="#BE4118"/>
+      <path fill-rule="evenodd" clip-rule="evenodd" d="M594.768 0.323853L627.464 24.4509L600.843 56.5239L570.195 30.9819L594.768 0.323853Z" fill="#5C60D5"/>
+      <path fill-rule="evenodd" clip-rule="evenodd" d="M638.181 56.5239H600.844L627.465 24.4509H664.634L638.181 56.5239Z" fill="#BE4118"/>
+      <path fill-rule="evenodd" clip-rule="evenodd" d="M627.465 24.4509H664.634L633.242 1.78285L594.768 0.323853L627.465 24.4509Z" fill="#EA971D"/>
+      <path fill-rule="evenodd" clip-rule="evenodd" d="M638.182 56.8482C638.086 56.8482 637.992 56.8176 637.917 56.7571L607.135 31.3062H570.197C569.987 31.3062 569.818 31.1612 569.818 30.9824C569.818 30.8035 569.988 30.6593 570.197 30.6593H607.289C607.388 30.6593 607.483 30.6924 607.553 30.7504L638.446 56.2923C638.597 56.4164 638.6 56.6218 638.455 56.7499C638.38 56.8151 638.281 56.8482 638.182 56.8482Z" fill="#F2D265"/>
+      <path fill-rule="evenodd" clip-rule="evenodd" d="M607.288 31.3062C607.208 31.3062 607.128 31.2845 607.06 31.2402C606.892 31.1322 606.859 30.9292 606.987 30.7866L632.94 1.58672C633.068 1.44414 633.307 1.41675 633.472 1.52389C633.64 1.63183 633.673 1.83483 633.545 1.97741L607.591 31.1773C607.516 31.2619 607.403 31.3062 607.288 31.3062Z" fill="#F2D265"/>
+      <path fill-rule="evenodd" clip-rule="evenodd" d="M636.065 10.0683L620.098 29.2247C621.614 30.6836 621.815 32.8883 620.434 34.5453C618.826 36.4754 615.688 36.9281 613.422 35.5571C611.158 34.1868 610.626 31.5108 612.234 29.5816C613.611 27.9302 616.107 27.3647 618.217 28.093L634.187 8.93164L599.411 18.9404C599.411 18.9404 602.124 26.0058 601.942 30.7593C601.752 35.7383 596.206 42.2052 596.206 42.2052L601.804 45.5924L603.019 46.3295L604.895 47.4661L607.094 48.7969L611.708 51.5905C611.708 51.5905 617.046 44.9988 622.5 43.2048C627.707 41.4931 636.427 41.3497 636.427 41.3497L636.065 10.0683Z" fill="#2421A2"/>
+      <path fill-rule="evenodd" clip-rule="evenodd" d="M596.208 42.2059C596.208 42.2059 597.257 45.2226 602.649 48.4875C608.043 51.7523 611.709 51.5904 611.709 51.5904C611.709 51.5904 614.546 48.0879 618.197 45.4949C618.197 45.4949 613.384 44.9632 608.201 41.8257C603.017 38.6881 600.825 34.9778 600.825 34.9778C599.153 38.7686 596.208 42.2059 596.208 42.2059Z" fill="url(#paint8_linear)"/>
+      <path d="M600.844 56.8482C600.746 56.8482 600.651 56.8151 600.58 56.7555L569.931 31.2136C569.799 31.104 569.779 30.9292 569.882 30.7995L594.455 0.14076C594.517 0.0642344 594.613 0.0142911 594.72 0.00301357C594.828 -0.00987503 594.936 0.0191243 595.017 0.0795396L627.713 24.207C627.86 24.3157 627.887 24.5026 627.774 24.6388L601.154 56.712C601.089 56.7894 600.989 56.8393 600.878 56.8474C600.867 56.8474 600.855 56.8482 600.844 56.8482ZM570.688 30.9405L600.792 56.0273L626.955 24.5034L594.843 0.806134L570.688 30.9405Z" fill="#F2D265"/>
+      <path d="M638.182 56.8481H600.844C600.704 56.8481 600.572 56.7813 600.508 56.6733C600.443 56.5662 600.452 56.4365 600.534 56.3374L627.155 24.2641C627.226 24.1788 627.341 24.1272 627.465 24.1272H664.634C664.776 24.1272 664.905 24.1941 664.971 24.302C665.036 24.4091 665.026 24.538 664.945 24.6371L638.493 56.7104C638.422 56.7966 638.306 56.8481 638.182 56.8481ZM601.578 56.2013H637.985L663.904 24.7748H627.661L601.578 56.2013Z" fill="#F2D265"/>
+      <path d="M664.634 24.7749H627.465C627.373 24.7749 627.285 24.7467 627.215 24.6959L594.52 0.568454C594.397 0.478234 594.356 0.332432 594.416 0.204351C594.477 0.0762709 594.6 -0.00992165 594.787 0.00135588L633.26 1.46099C633.345 1.46421 633.424 1.49079 633.488 1.53752L664.88 24.2061C665.002 24.2931 665.046 24.4365 664.991 24.5646C664.936 24.6903 664.794 24.7749 664.634 24.7749ZM627.606 24.1272H663.599L633.096 2.10139L595.843 0.688479L627.606 24.1272Z" fill="#F2D265"/>
+      <path fill-rule="evenodd" clip-rule="evenodd" d="M30.2861 30.3037L83.7062 17.3847L99.0124 62.4687L45.5946 75.3847L30.2861 30.3037Z" fill="url(#paint9_linear)"/>
+      <path fill-rule="evenodd" clip-rule="evenodd" d="M31.1725 30.3849L83.8693 17.4609L51.3082 7.38487L1.16479 19.6839L31.1725 30.3849Z" fill="#5C60D5"/>
+      <path fill-rule="evenodd" clip-rule="evenodd" d="M30.2209 30.3149L0 19.3849L14.5909 63.5819L45.4292 76.3849L30.2209 30.3149Z" fill="url(#paint10_linear)"/>
+      <path fill-rule="evenodd" clip-rule="evenodd" d="M14.3513 63.3849C14.1902 63.3849 14.0421 63.2949 13.9939 63.1565C13.9356 62.987 14.0495 62.8079 14.2448 62.7586L65.5581 49.7113L50.0073 6.79898C49.9471 6.63108 50.0563 6.45044 50.2526 6.39951C50.448 6.34699 50.6581 6.44009 50.7183 6.60959L66.3802 49.8306C66.4099 49.9134 66.3997 50.0001 66.3534 50.0765C66.3071 50.1529 66.2265 50.2086 66.1312 50.2317L14.4559 63.3729C14.4217 63.3801 14.3856 63.3849 14.3513 63.3849ZM98.648 62.3849C98.5971 62.3849 98.5453 62.3756 98.4962 62.3563L66.61 49.9766C66.4272 49.9055 66.3463 49.7215 66.43 49.5662C66.5145 49.4093 66.7318 49.3428 66.9136 49.4124L98.7998 61.792C98.9826 61.8631 99.0635 62.0471 98.9798 62.204C98.9189 62.3169 98.7871 62.3849 98.648 62.3849Z" fill="#EA971D"/>
+      <path d="M87.9187 54.7246L76.5971 57.2633L69.0192 48.2843L48.4157 52.9062L47.2398 63.85L36.2 66.327L42.7243 17.8462L53.7289 15.3786L87.9187 54.7246ZM63.2769 41.4786L51.266 26.8988L49.333 44.7786L63.2769 41.4786Z" fill="#5B252C"/>
+      <path fill-rule="evenodd" clip-rule="evenodd" d="M53.73 15.3778L47.9593 13.6318L36.955 16.0988L42.7256 17.8458L53.73 15.3778Z" fill="#93778B"/>
+      <path fill-rule="evenodd" clip-rule="evenodd" d="M36.2013 66.3258L30.4307 64.5798L36.955 16.0988L42.7257 17.8458L36.2013 66.3258Z" fill="#724A5F"/>
+      <path fill-rule="evenodd" clip-rule="evenodd" d="M70.8278 55.5169L76.5984 57.2639L69.0199 48.2849L65.4077 49.0949L70.8278 55.5169Z" fill="#724A5F"/>
+      <path fill-rule="evenodd" clip-rule="evenodd" d="M57.6265 39.8779L50.7632 31.5389L51.2664 26.8989L63.2772 41.4789L57.6265 39.8779Z" fill="#724A5F"/>
+      <path fill-rule="evenodd" clip-rule="evenodd" d="M49.6694 41.6619L57.6265 39.8779L63.2772 41.4789L49.3328 44.7789L49.6694 41.6619Z" fill="#93778B"/>
+      <path d="M45.7998 76.3847C45.6389 76.3847 45.4909 76.2924 45.4449 76.1512L30.3015 30.0162C30.2739 29.9344 30.2849 29.8453 30.3327 29.7714C30.3805 29.696 30.4596 29.6414 30.5543 29.6181L83.3997 16.3974C83.4944 16.3741 83.5964 16.383 83.681 16.4239C83.7665 16.4664 83.8299 16.5354 83.8566 16.6181L98.9982 62.7531C99.0552 62.9256 98.9412 63.103 98.7454 63.1528L45.9009 76.3719C45.8678 76.3799 45.8329 76.3847 45.7998 76.3847ZM31.1141 30.147L46.0535 75.6632L98.1883 62.6215L83.2498 17.1053L31.1141 30.147Z" fill="#EA971D"/>
+      <path d="M30.5312 30.3849C30.4824 30.3849 30.4345 30.3769 30.3893 30.3602L0.228588 19.493C0.0830084 19.442 -0.00820918 19.3153 0.00100471 19.1783C0.0102186 19.0428 0.118021 18.9281 0.269129 18.8906L50.6682 6.39722C50.7428 6.37889 50.823 6.38049 50.8958 6.40519L83.6244 16.6389C83.7756 16.686 83.8741 16.8118 83.8695 16.9505C83.8631 17.0891 83.7553 17.2086 83.6014 17.2477L30.6344 30.3729C30.6003 30.3809 30.5662 30.3849 30.5312 30.3849ZM1.48813 19.254L30.5543 29.7275L82.2967 16.9059L50.7576 7.04261L1.48813 19.254Z" fill="#EA971D"/>
+      <path d="M45.0656 76.3849C45.0111 76.3849 44.9575 76.3754 44.9076 76.354L14.5641 63.6942C14.4696 63.6554 14.3997 63.5825 14.3706 63.4945L0.0146624 19.7912C-0.0244002 19.6739 0.0182961 19.5463 0.121857 19.4663C0.226327 19.3839 0.374402 19.3625 0.505216 19.4092L30.2409 30.2178C30.3436 30.255 30.4208 30.3311 30.4517 30.4254L45.4154 75.9799C45.4554 76.1004 45.409 76.2288 45.3 76.3112C45.2337 76.3603 45.1501 76.3849 45.0656 76.3849ZM15.0274 63.1807L44.4915 75.4751L29.8003 30.7471L0.92582 20.2532L15.0274 63.1807Z" fill="#EA971D"/>
+      <path fill-rule="evenodd" clip-rule="evenodd" d="M602.402 210.413L637.433 231.701V193.928L602.402 178.87V210.413Z" fill="url(#paint11_linear)"/>
+      <path fill-rule="evenodd" clip-rule="evenodd" d="M670.342 212.182L636.373 231.701V193.835L670.342 179.781V212.182Z" fill="url(#paint12_linear)"/>
+      <path fill-rule="evenodd" clip-rule="evenodd" d="M636.606 194.355L670.342 180.156L636.199 168.85L601.341 179.105L636.606 194.355Z" fill="url(#paint13_linear)"/>
+      <path fill-rule="evenodd" clip-rule="evenodd" d="M670.039 212.573C669.993 212.573 669.946 212.563 669.903 212.544L636.185 197.645L601.764 210.697C601.608 210.755 601.433 210.694 601.366 210.56C601.299 210.426 601.37 210.27 601.523 210.212L636.075 197.11C636.157 197.078 636.251 197.081 636.331 197.116L670.176 212.072C670.325 212.138 670.385 212.297 670.31 212.428C670.256 212.519 670.151 212.573 670.039 212.573Z" fill="#F2D265"/>
+      <path fill-rule="evenodd" clip-rule="evenodd" d="M636.904 197.998C636.667 197.998 636.477 197.883 636.477 197.74V169.108C636.477 168.965 636.668 168.85 636.904 168.85C637.139 168.85 637.329 168.965 637.329 169.108V197.74C637.33 197.883 637.139 197.998 636.904 197.998Z" fill="#F2D265"/>
+      <path opacity="0.5" fill-rule="evenodd" clip-rule="evenodd" d="M617.264 190.851C617.264 200.417 626.001 204.91 626.001 206.699C626.001 206.707 626.609 213.484 626.609 213.484H635.831H635.852H645.075C645.075 213.484 645.683 206.707 645.683 206.699C645.682 204.91 654.419 200.81 654.419 190.851C654.419 183.327 646.046 177.959 635.854 177.959C625.662 177.958 617.264 183.511 617.264 190.851Z" fill="white"/>
+      <path d="M646.001 212.573H626.744L626.723 212.334C626.106 205.647 626.106 205.643 626.106 205.629C626.106 205.193 625.287 204.406 624.25 203.409C621.637 200.895 617.264 196.688 617.264 190.011C617.264 182.742 625.663 177.048 636.385 177.048C647.271 177.048 655.48 182.621 655.48 190.011C655.48 197.002 651.076 201.088 648.444 203.529C647.435 204.465 646.639 205.203 646.64 205.629C646.64 205.643 646.64 205.647 646.022 212.334L646.001 212.573ZM627.312 212.056H645.435C645.544 210.874 646.023 205.69 646.029 205.612C646.027 205.004 646.809 204.28 647.992 203.182C650.564 200.797 654.87 196.803 654.87 190.011C654.87 182.915 646.923 177.564 636.386 177.564C626.008 177.564 617.877 183.032 617.877 190.011C617.877 196.494 622.156 200.61 624.713 203.069C625.921 204.232 626.72 205 626.72 205.63C626.725 205.692 627.203 210.874 627.312 212.056Z" fill="white"/>
+      <path d="M628.536 196.477C627.108 196.477 625.945 195.511 625.945 194.325C625.945 193.138 627.108 192.172 628.536 192.172C629.965 192.172 631.128 193.137 631.128 194.325C631.128 195.511 629.966 196.477 628.536 196.477ZM628.536 192.943C627.62 192.943 626.873 193.563 626.873 194.325C626.873 195.086 627.62 195.706 628.536 195.706C629.453 195.706 630.199 195.086 630.199 194.325C630.2 193.563 629.453 192.943 628.536 192.943ZM646.039 196.477C644.61 196.477 643.448 195.511 643.448 194.325C643.448 193.138 644.61 192.172 646.039 192.172C647.467 192.172 648.63 193.137 648.63 194.325C648.63 195.511 647.467 196.477 646.039 196.477ZM646.039 192.943C645.122 192.943 644.376 193.563 644.376 194.325C644.376 195.086 645.122 195.706 646.039 195.706C646.955 195.706 647.702 195.086 647.702 194.325C647.702 193.563 646.955 192.943 646.039 192.943Z" fill="white"/>
+      <path fill-rule="evenodd" clip-rule="evenodd" d="M641.121 212.538H633.182L628.568 196.131L629.473 195.957L633.917 211.767H640.395L645.081 195.946L645.982 196.131L641.121 212.538Z" fill="white"/>
+      <path fill-rule="evenodd" clip-rule="evenodd" d="M644.735 192.929C643.529 191.294 641.181 189.345 636.85 189.345C632.595 189.345 630.583 191.238 629.644 192.824L628.812 192.484C629.675 191.024 631.868 188.574 636.85 188.574C641.862 188.574 644.438 191.051 645.526 192.526L644.735 192.929Z" fill="white"/>
+      <path fill-rule="evenodd" clip-rule="evenodd" d="M628.505 215.57L626.818 217.555C626.818 220.337 633.279 222.592 636.537 222.592H636.808C640.066 222.592 645.926 220.337 645.926 217.555L644.219 215.57C644.219 212.788 628.505 212.788 628.505 215.57Z" fill="#93778B"/>
+      <path fill-rule="evenodd" clip-rule="evenodd" d="M646.988 209.84C646.988 209.84 644.731 211.174 637.338 211.174C629.943 211.174 626.818 209.84 626.818 209.84L627.449 218.467C627.449 218.467 631.637 219.86 637.338 219.86C643.038 219.86 646.379 218.467 646.379 218.467L646.988 209.84Z" fill="url(#paint14_linear)"/>
+      <path d="M637.127 232.612C637.064 232.612 637.001 232.596 636.949 232.564L601.471 211.12C601.389 211.07 601.341 210.991 601.341 210.906V179.132C601.341 179.041 601.396 178.956 601.486 178.909C601.577 178.861 601.691 178.857 601.786 178.898L637.264 194.066C637.368 194.11 637.434 194.201 637.434 194.3V232.351C637.434 232.448 637.37 232.538 637.267 232.583C637.223 232.602 637.175 232.612 637.127 232.612ZM601.955 210.771L636.819 231.844V194.461L601.955 179.556V210.771ZM637.736 232.612C637.688 232.612 637.639 232.603 637.595 232.582C637.496 232.537 637.434 232.45 637.434 232.354V194.864C637.434 194.766 637.499 194.676 637.604 194.632L670.97 180.718C671.063 180.679 671.173 180.683 671.262 180.731C671.351 180.777 671.404 180.861 671.404 180.949V213.029C671.404 213.115 671.354 213.195 671.272 213.243L637.906 232.568C637.855 232.597 637.796 232.612 637.736 232.612ZM638.038 195.024V231.868L670.8 212.893V181.362L638.038 195.024Z" fill="#F2D265"/>
+      <path d="M636.599 194.355C636.551 194.355 636.504 194.346 636.462 194.327L601.508 179.385C601.399 179.339 601.334 179.241 601.341 179.137C601.35 179.034 601.43 178.945 601.546 178.911L636.097 168.863C636.165 168.844 636.238 168.845 636.303 168.867L670.148 179.944C670.26 179.981 670.337 180.071 670.342 180.173C670.347 180.276 670.281 180.371 670.172 180.416L636.73 194.327C636.69 194.346 636.644 194.355 636.599 194.355ZM602.424 179.2L636.6 193.81L669.282 180.213L636.19 169.382L602.424 179.2Z" fill="#F2D265"/>
+      <defs>
+      <linearGradient id="paint0_linear" x1="370.314" y1="456.822" x2="370.314" y2="340.684" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#B5A8AE"/>
+      <stop offset="1" stop-color="#93778B"/>
+      </linearGradient>
+      <linearGradient id="paint1_linear" x1="370.178" y1="178.827" x2="487.667" y2="378.009" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F2D265"/>
+      <stop offset="1" stop-color="#DCBB60"/>
+      </linearGradient>
+      <linearGradient id="paint2_linear" x1="394.161" y1="184.83" x2="457.899" y2="284.109" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#EA971D"/>
+      <stop offset="1" stop-color="#E9AA4A"/>
+      </linearGradient>
+      <linearGradient id="paint3_linear" x1="474.02" y1="258.42" x2="531.696" y2="350.389" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#AE2E41"/>
+      <stop offset="1" stop-color="#DC6734"/>
+      </linearGradient>
+      <linearGradient id="paint4_linear" x1="459.277" y1="226.743" x2="514.075" y2="276.592" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#DC6734"/>
+      <stop offset="1" stop-color="#EA971D"/>
+      </linearGradient>
+      <linearGradient id="paint5_linear" x1="494.091" y1="159.843" x2="516.572" y2="190.569" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#DC6734"/>
+      <stop offset="1" stop-color="#EA971D"/>
+      </linearGradient>
+      <linearGradient id="paint6_linear" x1="397.316" y1="242.267" x2="418.23" y2="273.021" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#DC6734"/>
+      <stop offset="1" stop-color="#EA971D"/>
+      </linearGradient>
+      <linearGradient id="paint7_linear" x1="178.529" y1="339.551" x2="567.27" y2="339.551" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#B5A8AE"/>
+      <stop offset="0.3173" stop-color="#B3A5AC"/>
+      <stop offset="0.5783" stop-color="#AC9BA4"/>
+      <stop offset="0.8186" stop-color="#A08998"/>
+      <stop offset="1" stop-color="#93778B"/>
+      </linearGradient>
+      <linearGradient id="paint8_linear" x1="596.207" y1="43.2844" x2="618.197" y2="43.2844" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#895E68"/>
+      <stop offset="0.329" stop-color="#76474F"/>
+      <stop offset="0.7485" stop-color="#622E36"/>
+      <stop offset="1" stop-color="#5B252C"/>
+      </linearGradient>
+      <linearGradient id="paint9_linear" x1="37.9409" y1="23.8442" x2="82.3823" y2="76.5045" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#AE2E41"/>
+      <stop offset="1" stop-color="#DC6734"/>
+      </linearGradient>
+      <linearGradient id="paint10_linear" x1="9.72958" y1="51.9877" x2="36.4294" y2="46.6295" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#5C60D5"/>
+      <stop offset="1" stop-color="#2421A2"/>
+      </linearGradient>
+      <linearGradient id="paint11_linear" x1="602.526" y1="210.704" x2="640.521" y2="205.5" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#5C60D5"/>
+      <stop offset="1" stop-color="#2421A2"/>
+      </linearGradient>
+      <linearGradient id="paint12_linear" x1="636.373" y1="205.741" x2="670.342" y2="205.741" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#AE2E41"/>
+      <stop offset="1" stop-color="#DC6734"/>
+      </linearGradient>
+      <linearGradient id="paint13_linear" x1="635.841" y1="194.355" x2="635.841" y2="168.85" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#DC6734"/>
+      <stop offset="1" stop-color="#EA971D"/>
+      </linearGradient>
+      <linearGradient id="paint14_linear" x1="626.818" y1="214.85" x2="646.988" y2="214.85" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#895E68"/>
+      <stop offset="1" stop-color="#5B252C"/>
+      </linearGradient>
+      </defs>
+      </svg>
+      
+        </div> 
+      </div>
+
+
+
+      <!-- form -->
+
+
+      <div class="container-form">
+            <form id="councelling-form" method="POST" name="google-sheet">
+              <div class="form-group">
+                <label id="name-label" for="name">Name</label>
+                <input
+                  type="text"
+                  name="name"
+                  id="name"
+                  class="form-control"
+                  placeholder="Enter your name"
+                  required
+                />
+              </div>
+              <div class="form-group">
+                <label id="email-label" for="email">Email</label>
+                <input
+                  type="email"
+                  name="email"
+                  id="email"
+                  class="form-control"
+                  placeholder="Enter your Email"
+                  required
+                />
+              </div>
+              <div class="form-group">
+                <label id="number-label" for="number"
+                  >Phone number</label
+                >
+                <input
+                  type="number"
+                  name="phone"
+                  id="number"
+                  class="form-control"
+                  placeholder="Enter your number"
+                  required
+                />
+              </div>
+               <div class="form-group">
+                <label id="number-label" for="number"
+                  >Class<span class="clue">(optional)</span></label
+                >
+                <input
+                  type="number"
+                  name="class"
+                  id="number"
+                  min="5"
+                  max="99"
+                  class="form-control"
+                  placeholder="Enter your Class"
+                />
+              </div>
+
+              <div class="form-group">
+                  <p>Choose your batch</p>
+                  <label name="choose-batch">
+                    <input
+                      name="elite"
+                      value="elite"
+                      type="radio"
+                      class="input-radio"
+                      checked
+                    />Elite</label
+                  >
+                  <label>
+                    <input
+                    name="basic"
+                      value="basic"
+                      type="radio"
+                      class="input-radio"
+                    />Basic</label
+                  >
+            
+                  <label
+                    ><input
+                    name="not-sure"
+                      value="not-sure"
+                      type="radio"
+                      class="input-radio"
+                    />Not sure</label
+                  >
+                </div>
+              <div class="form-group">
+                <p>
+                  Choose your preferred subjects
+                  <span class="clue">(Check all that apply)</span>
+                </p>
+          
+                <label name="prefer-subject"
+                  ><input
+                    name="prefer"
+                    value="chemistry"
+                    type="checkbox"
+                    class="input-checkbox"
+                  />Chemistry</label
+                >
+                <label>
+                  <input
+                    name="prefer"
+                    value="physics"
+                    type="checkbox"
+                    class="input-checkbox"
+                  />Physics</label
+                >
+                <label
+                  ><input
+                    name="prefer"
+                    value="biology"
+                    type="checkbox"
+                    class="input-checkbox"
+                  />Biology</label
+                >
+                <label
+                  ><input
+                    name="prefer"
+                    value="mathematics"
+                    type="checkbox"
+                    class="input-checkbox"
+                  />Mathematics</label
+                >
+                <label
+                  ><input
+                    name="prefer"
+                    value="other"
+                    type="checkbox"
+                    class="input-checkbox"
+                  />Other</label
+                >
+              </div>
+          
+              <div class="form-group">
+                <p>Message</p>
+                <textarea
+                  id="message"
+                  class="input-textarea"
+                  name="message"
+                  placeholder="Enter your message here..."
+                ></textarea>
+              </div>
+          
+              <div class="form-group">
+                <button name="submit" type="submit" id="submit" class="submit-button" data-submit="...Sending"  value="submit">
+                  Submit
+                </button>
+              </div>
+            </form>
+          </div>
+          
+
+
+
+
+  <!-- frequently asked question -->
+
+<section class="faq">
+	<h3>FAQ</h3>
+	
+	<details class="faq__question" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question" open>
+		
+		<summary class="faq__toggle" itemprop="name" aria-expanded="true" aria-controls="faq_answer_1">
+			What is the age criterion for appearing in NEET-UG?
+		</summary>
+		
+		<div id="faq_answer_1" class="faq__answer" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+			<span class="reveal_overlay"></span>
+			
+			<p itemscope="text">				
+				He/she has completed age of 17 years at the time of admission or will complete that age on or before 31 December of the year of his/her admission to the first year Undergraduate Medical Courses.
+
+The upper age limit for NEET (UG) is 25 years as on the date of examination with relaxation of 5 years for the candidates belonging to SC/ST/OBC-NCL category and PwD Candidates.
+
+For Candidates of General (UR)/General-EWS- born on or before 31.12.2003
+
+For Candidates of SC/ST/OBC-NCL/PwD Category- born on or before 31.12.2003
+			</p>
+		</div>
+	</details>
+	
+	<details class="faq__question" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+		
+		<summary class="faq__toggle" itemprop="name" aria-expanded="true" aria-controls="faq_answer_2">
+			What is National Eligibility cum Entrance Test –UG (NEET-UG)?
+		</summary>
+		
+		<div id="faq_answer_2" class="faq__answer" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+			<p itemscope="text">
+				As per regulations framed under the Indian Medical Council Act-1956 as amended in 2018 and the Dentists Act-1948 as amended in 2018, admissions in 100% seats of MBBS/BDS will be done through NATIONAL ELIGIBILITY CUM ENTRANCE TEST (UG) – 2018 (NEET-UG, 2018) in Medical/Dental Colleges run with the approval of Medical Council of India/Dental Council of India under the Union Ministry of Health and Family Welfare, Government of India except for the institutions established through an Act of Parliament i.e. AIIMS and JIPMER Puducherry.
+				
+			</p>
+		</div>
+	</details>
+	
+	<details class="faq__question" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+		
+		<summary class="faq__toggle" itemprop="name" aria-expanded="true" aria-controls="faq_answer_3">
+			Through NEET-UG against which seats admissions will be made?
+		</summary>
+		
+		<div id="faq_answer_3" class="faq__answer" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+			<p itemscope="text">
+				All India Quota Seats<br>
+State Government Quota Seats
+Central Institutions/Universities/Deemed Universities<br>
+State/Management/NRI Quota Seats in Private Medical / Dental Colleges or any Private University
+Central Pool Quota Seats
+				
+			</p>
+		</div>
+	</details>
+</section>
+
+
+
+
+<!-- footer -->
+      <!-- Remove the container if you want to extend the Footer to full width. -->
+      
+      <footer class="bg-dark text-center text-lg-start text-white darkk">
+            <!-- Grid container -->
+            <div class=" p-4">
+                  <!--Grid row-->
+                  <div class="row my-4">
+                        <!--Grid column-->
+                        <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                              
+                              <div class="  shadow-1-strong d-flex align-items-center justify-content-center mb-4 mx-auto" style="width: 150px; height: 150px;">
+                                    <img src="https://i.ibb.co/7rb5L6p/logo1.png" height="140" alt=""
+                                    loading="lazy" />
+                              </div>
+                              
+                              <p class="text-center">Alamkul is committed to inspire students to discover their latent intellect and fill the gap between scientific theory and common-sense</p>
+                              
+                              <ul class="list-unstyled d-flex flex-row justify-content-center">
+                                    <li>
+                                          <a class="text-white px-2" href="#!">
+                                                <i class="fab fa-facebook"></i>
+                                          </a>
+                                    </li>
+                                    <li>
+                                          <a class="text-white px-2" href="#!">
+                                                <i class="fab fa-instagram"></i>
+                                          </a>
+                                    </li>
+                                    <li>
+                                          <a class="text-white ps-2" href="#!">
+                                                <i class="fab fa-youtube"></i>
+                                          </a>
+                                    </li>
+                              </ul>
+                              
+                        </div>
+                        <!--Grid column-->
+                        
+                        <!--Grid column-->
+                        <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                          <h5 class="text-uppercase mb-4">Courses</h5>
+                          
+                          <ul class="list-unstyled">
+                            <li class="mb-2">
+                              <a href="/courses/cmp/index.html" class="text-white">CMP</a>
+                        </li>
+                        <li class="mb-2">
+                              <a href="/courses/pre-foundation/index.html" class="text-white">Pre-Foundation</a>
+                        </li>
+                        <li class="mb-2">
+                              <a href="/courses/jee/jee-index.html" class="text-white">JEE</a>
+                        </li>
+                        <li class="mb-2">
+                              <a href="/courses/neet/neet-index.html" class="text-white">NEET</a>
+                        </li>
+                        <li class="mb-2">
+                              <a href="/courses/board/index.html" class="text-white">Board Courses</a>
+                        </li>
+                          </ul>
+                    </div>
+                    <!--Grid column-->
+                    
+                    <!--Grid column-->
+                    <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                          <h5 class="text-uppercase mb-4">Company</h5>
+                          
+                          <ul class="list-unstyled">
+                                <li class="mb-2">
+                                      <a href="/abt-us/abt-us-index.html" class="text-white">About us</a>
+                                </li>
+                                <li class="mb-2">
+                                      <a href="#demo-form" class="text-white">Contact us</a>
+                                </li>
+                                <li class="mb-2">
+                                      <a href="/sponser/sponsor-us/spnsr-us-index.html" class="text-white">Sponsor a child</a>
+                                </li>
+                                <li class="mb-2">
+                                      <a href="/sponser/be-sponsored/be-spnsrd-index.html" class="text-white">Be Sponsored</a>
+                                </li>
+                                <li class="mb-2">
+                                  <a href="/counselling/counselling-index.html" class="text-white">Counselling</a>
+                            </li>
+                          </ul>
+                    </div>
+                        <!--Grid column-->
+                        
+                        <!--Grid column-->
+                        <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                              <h5 class="text-uppercase mb-4">Contact</h5>
+                              
+                              <ul class="list-unstyled">
+                                    <li>
+                                          <p><i class="fas fa-map-marker-alt pe-2"></i>I3S TECHNOLOGY PVT. LTD
+                                                Brigade Metropolis, Garudacharpalya, Bengaluru - 48, Karnataka</p>
+                                          </li>
+                                          <li>
+                                                <p><i class="fas fa-phone pe-2"></i> +97022912888
+                                                </p>
+                                          </li>
+                                          <li>
+                                                <p><i class="fas fa-envelope pe-2 mb-0"></i> alamkul@i3stech.com
+                                                </p>
+                                          </li>
+                                    </ul>
+                              </div>
+                              <!--Grid column-->
+                        </div>
+                        <!--Grid row-->
+                  </div>
+                  <!-- Grid container -->
+                  
+                  <!-- Copyright -->
+                  <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">
+                        © 2021 Copyright
+                        <!-- Copyright -->
+                  </footer>
+
+
+
+
+
+
+            <!-- Option 1: Bootstrap Bundle with Popper -->
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+            <script src="/courses/neet/neet-script.js"></script>
+            <!--Start of Tawk.to Script-->
+<script type="text/javascript">
+  var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+  (function(){
+  var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+  s1.async=true;
+  s1.src='https://embed.tawk.to/6141f21525797d7a89ff1b99/1ffkpja1b';
+  s1.charset='UTF-8';
+  s1.setAttribute('crossorigin','*');
+  s0.parentNode.insertBefore(s1,s0);
+  })();
+  </script>
+  <!--End of Tawk.to Script-->
+      </body>
+      </html>
